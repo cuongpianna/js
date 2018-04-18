@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Placeholders</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur odio excepturi, asperiores eum beatae voluptatem commodi voluptatum, vero eveniet laboriosam ab culpa voluptatibus quam vitae quibusdam blanditiis, iusto modi!</p>
+	</div>
+	<script>
+		$(function() {
+			$('p').animate({opacity:0.5});
+			$('p').click(function(){
+				$('p').animate({opacity:0.5});
+			});
+			
+		});
+
+	</script>
+</body>
+</html>
