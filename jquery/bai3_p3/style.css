@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.noidung {
+    width:  60%;
+    margin: auto;
+    font-family: tahoma;
+}
+
+h1.tieude {
+    text-align:  center;
+    font-size: 23px;
+    margin: 10px 0;
+    margin-bottom: 100px;
+}
+
+.vaicaianh{
+	overflow: hidden;
+}
+
+.tdkhoi img {
+    float: right;
+    transition: 0.4s;
+    margin-right: -20px;
+}
+
+img.anhnho{
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+._motkhoi {
+	border-bottom: 1px solid gray;
+    margin-bottom:  40px;
+    padding-bottom: 42px;
+}
+
+h2.tdkhoi{
+	height: 55px;
+	font-size: 35px;
+	color: #464646;
+	overflow: hidden;
+	font-weight: 300;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.tdkhoi:hover img{
+	margin-right: 10px;
+}
+
+.tdkhoi:hover{
+	color: lightblue;
+}
+
+.ndkhoi{
+	color: gray;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.tdkhoi.xanh{
+	color: lightblue;
+}
+
+.tdkhoi.xanh img{
+	transform: rotate(180deg);
+}
